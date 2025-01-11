@@ -8,11 +8,10 @@ const Navbar = () => {
     <div>
       <div className="container-fluid" style={{ backgroundColor: '#935ceb' }}>
         <div className="row align-items-center py-2">
-          <div className="col-3"></div>
-          <div className="col-6 text-center">
-            <p className="mb-0 text-white">Phone: +1234567890 | Email: example@example.com</p>
+          <div className="col-12 text-center">
+            <p className="mb-0 text-white">Phone: +91 82172 30766 | Email: vaisirifirstgradecollege@gmail.com</p>
           </div>
-          <div className="col-3 text-end">
+          <div className="col-12 text-center">
             <div className="d-inline-flex gap-2">
               <a href="https://www.facebook.com/vtech.tumkur?mibextid=ZbWKwL">
                 <img src="https://img.icons8.com/?size=100&id=118497&format=png&color=ffffff" alt="Facebook" width="20" />
@@ -31,15 +30,26 @@ const Navbar = () => {
         </div>
       </div>
 
-      <nav className="navbar navbar-expand-lg d-flex justify-content-end align-items-center px-4 py-3" style={{ backgroundColor: '#58368F', height: '75px' }}>
+      <nav className="navbar navbar-expand-lg d-flex justify-content-between align-items-center px-4 py-3" style={{ backgroundColor: '#58368F', height: '75px' }}>
         <div className="container-fluid">
           <a className="navbar-brand text-white" href="/" style={{ 
-            textShadow: '1px 1px 2px white, 0 0 25px white, 0 0 5px white, 0 0 5px white',
-            fontSize: '24px',
-            marginLeft: '20px'
-          }}>
-            V-TECHNO  V TECH SOLUTIONS
+              textShadow: '1px 1px 2px white, 0 0 25px white, 0 0 5px white, 0 0 5px white',
+              fontSize: '24px',
+              marginLeft: '20px'
+            }}>
+            <img 
+              src="/logo.jpeg" 
+              alt="Logo" 
+              style={{ 
+                width: '40px',   // Adjust the width as per your needs
+                height: '40px',  // Adjust the height as per your needs
+                marginLeft: '10px',  // Add some space between the text and the image
+                marginRight: '10px'
+              }} 
+            />
+            Vaisiri Institute
           </a>
+
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -53,19 +63,10 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-white" to="/gallery">Gallery</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" to="/pgcourse">P G Courses</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" to="/trainingcourse">Training Course</Link>
-              </li>
+              </li>              
               <li className="nav-item">
                 <Link className="nav-link text-white" to="/contact-us">Contact Us</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link text-white" to="/job-portal">Job Portal</Link>
-              </li>
+              </li>              
             </ul>
           </div>
         </div>

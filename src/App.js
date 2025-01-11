@@ -5,9 +5,8 @@ import AboutUs from './components/AboutUs';
 import Gallery from './components/Gallery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import PgCourses from './components/PgCourses';
 import Contactus from './components/Contactus';
-import Jobportal from './components/Jobportal';
+
 
 // Import other components/pages as needed
 
@@ -17,10 +16,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/pgcourse" element={<PgCourses />} />
+        <Route path="/gallery" element={<Gallery />} />       
         <Route path="/contact-us" element={<Contactus />} />
-        <Route path="/job-portal" element={<Jobportal />} />
+      
         
         {/* Add other routes here */}
       </Routes>

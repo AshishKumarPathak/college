@@ -18,36 +18,45 @@ const AboutUs = () => {
       <main style={{ flex: '1' }}>
         <section className="about py-3" style={{ backgroundColor: '#935ceb', color: 'black' }}>
           <div className="container">
-            <a 
+            <h2 
               className="text-black font-weight-bold d-flex justify-content-center mb-3" 
               style={{ 
                 textShadow: '1px 1px 2px white, 0 0 25px white, 0 0 5px white, 0 0 5px white',
-                fontSize: '22px',
+                fontSize: '28px', // Increased size for the heading
                 fontWeight: 'bold'
               }}
             >
-              About Us
-            </a>
+              ABOUT US
+            </h2>
 
-            <div className="about-info">
-              <div>
-                <p>
-                  DISTANCE AND ONLINE EDUCATION CENTRE AND COMPUTER TRAINING INSTITUTE
-                  V Tech Solutions, a distinguished partner of JAIN UNIVERSITY, has strategically aligned with several prestigious universities, including Jain Online, Jain CDOE, Uttaranchal online, Mizoram online, VIGNAN online, ANDRA, and Karnataka State Open University (KSOU), KSOU online. Through these collaborations, V Tech Solutions offers a comprehensive and diverse portfolio of undergraduate and postgraduate programs with comprehensive placement assistance to support students in their transition to successful careers. State-of-the-art laboratory facilities, spacious classrooms, experienced faculties, and a student-centric administration are offered. In collaboration with BOSCH, V Tech Solutions is committed to social responsibility through our Caregiver and Bridge programs. Additionally, students can enhance their skills with courses in Desktop Publishing (DTP), Nudi, English Typing, and Spoken English.
-                </p>
-                <p>
-                  As the only authorized Tally Training partner in Tumkur, we offer Tally Prime Levels 1, 2, and 3, GST using Tally Prime, GST Simulation, TDS & TCS, and Tally Professional (Payroll), including internships.
-                </p>
-                <p>
-                  Our affiliation with the National Skill Development Corporation (NSDC) and All India Computer Saksharatha Mission (AICSM) helps students gain proficiency in computer basics, including AI-enhanced MS Word, MS Excel, MS PowerPoint, and Advanced Excel.
-                </p>
-                <p>
-                  Programming courses cover a wide range of languages and technologies, such as C Programming, C#, C++, Core Java, Advanced Java, Python, Data Structures, .NET, SQL, PHP, and R programming, web designing, among others.
-                </p>
-                <p>
-                  An array of design courses, including AutoCAD (Mechanical, Civil, Electrical), REVIT, 3DS MAX, SOLIDWORKS, CREO, CATIA, and NX-CAD. These initiatives aim to uplift educational confidence by providing them with technical and life skills, thereby enhancing their employment opportunities.
-                </p>
-              </div>
+            <div className="text-white about-info" style={{ fontSize: '18px', lineHeight: '1.8' }}> {/* Increased text size */}
+              <p>
+                Vaisiri Institute of Management and Technology is committed to academic excellence and innovation. 
+                Our experienced faculty, state-of-the-art infrastructure, and rigorous academic programs ensure that 
+                our students receive a well-rounded education. Established in 2024, our institution is proud to be 
+                part of the esteemed Vidyavahini Samsthe.
+              </p>
+
+              <h3 style={{ fontSize: '22px', marginTop: '20px' }}>Courses Offered</h3> {/* Increased size for subheading */}
+              <ul style={{ fontSize: '18px', lineHeight: '1.8' }}> {/* Increased size for list items */}
+                <li>
+                  <strong>Master of Business Administration (MBA):</strong> A two-year postgraduate program designed to develop business leaders and entrepreneurs.
+                </li>
+                <li>
+                  <strong>Bachelor of Business Administration (BBA):</strong> A three-year undergraduate program that focuses on developing business management skills.
+                </li>
+                <li>
+                  <strong>Bachelor of Computer Applications (BCA):</strong> A three-year undergraduate program that emphasizes computer applications and software development.
+                </li>
+              </ul>
+
+              <h3 style={{ fontSize: '22px', marginTop: '20px' }}>Location:</h3> {/* Increased size for subheading */}
+              <p>
+              Location
+                Vaisiri Institute of Management and Technology<br></br>
+                2nd Phase, Sri Sharadadevi Nagar,<br></br>
+                Near Sai Baba Temple, Tumkur.<br></br>
+              </p>
             </div>
           </div>
         </section>

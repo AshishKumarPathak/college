@@ -3,12 +3,13 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer 
-      className="bg-dark text-light py-3" 
+      className="text-light py-3" 
       style={{ 
         position: 'fixed', 
         bottom: '0', 
         width: '100%', 
-        zIndex: '100', // Ensure the footer stays on top if there are other elements
+        zIndex: '100', 
+        backgroundColor: '#58368F',
         minHeight: '40px' 
       }}
     >

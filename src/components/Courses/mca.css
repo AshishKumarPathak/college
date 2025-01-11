@@ -32,4 +32,24 @@
     background-color: #f5f5f5; /* Optional background color */
     text-align: center;
   }
+
+  /* Ensure the page-container takes the full height of the viewport */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure the content-wrap expands to take available space */
+.content-wrap {
+  flex: 1;
+  padding-bottom: 20px; /* Add some bottom padding to prevent overlap */
+}
+
+/* Footer at the bottom */
+footer {
+  position: relative;
+  width: 100%;
+}
+
   
